@@ -27,6 +27,9 @@ INSERT INTO users VALUES('john@test.com', 'pass123', 'user');
 SELECT * FROM users;
 
 
+
+
+
 CREATE TABLE courses(
     course_id INT PRIMARY KEY AUTO_INCREMENT,
     course_name VARCHAR(50) NOT NULL,
@@ -46,6 +49,8 @@ INSERT INTO courses(course_name,description,fees,start_date,end_date,video_expir
 INSERT INTO courses(course_name,description,fees,start_date,end_date,video_expire_days) VALUES('IIT-MERN-July', 'MERN July', 4000, '2025-07-20', '2025-08-20', 30);
 
 SELECT * FROM courses;
+
+
 
 
 
@@ -74,6 +79,8 @@ INSERT INTO videos(course_id,title,youtube_url,added_at) VALUES(104,'Python Basi
 
 
 SELECT * FROM videos;
+
+
 
 
 
